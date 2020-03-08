@@ -1,0 +1,58 @@
+#chat .card-action input[type=text]:focus+ label {
+  color: #cfd8dc;
+  background-color: #546e7a;
+}
+
+#chat .collection .collection-item {
+  background-color: #cfd8dc;
+}
+
+.backdrop {
+  background-color: #cfd8dc;
+}
+
+.material-tooltip span {
+  color: #78909c;
+}
+
+#chat .side-nav a.btn {
+  margin: 5px 10px;
+  color: #cfd8dc;
+  background-color: #546e7a;
+}
+
+#chat .card a.btn {
+  color: #546e7a;
+  background-color: #cfd8dc;
+}
+
+#chat .dropdown-content {
+  background-color: #cfd8dc;
+}
+
+#chat .dropdown-content li a {
+  color: #546e7a;
+}
+
+#chat #chatLogin:focus+ label,
+#chat #chatPasswd:focus+ label {
+  color: #cfd8dc;
+}
+
+#chat #chatLogin:focus,
+#chat #chatPasswd:focus {
+  border-bottom: 1px solid #cfd8dc;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+#chat .btn:hover {
+  background-color: #b0bec5 !important;
+}
+
+#chat .btn-dark:hover {
+  background-color: #78909c !important;
+}
+
+#chat #chatMsg {
+  background-color: white;
+}

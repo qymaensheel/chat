@@ -1,0 +1,12 @@
+#chat .collection .collection-item {
+  background-color: #546e7a;
+  color: white;
+}
+
+.backdrop {
+  background-color: #78909c;
+}
+
+.material-tooltip span {
+  color: #cfd8dc;
+}

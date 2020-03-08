@@ -1,0 +1,174 @@
+#chat #chatMessages {
+	width: 100%;
+	height: 50vh;
+	background-color: white;
+	overflow-y: scroll;
+	font-size: 12px;
+	margin-bottom: 3px;
+	text-align: left;
+}
+
+#chat #chatMessages p {
+	font-size: 10px;
+}
+
+#chat .row {
+	margin-bottom: 1px;
+}
+
+#chat .row .section {
+	padding-bottom: 0;
+}
+
+#chat #chatOpenChat {
+	margin: 5px 10px;
+}
+
+#chat .card-action input[type=text]:focus+ label {
+	color: #cfd8dc;
+	background-color: #546e7a;
+}
+
+#chat .card {
+	margin: 0;
+	margin-bottom: .5rem;
+	text-align: center;
+}
+
+#chat #chatLoginHeader .card {
+	margin-top: 0.5rem;
+	margin-bottom: 0;
+}
+
+#chat .card .card-content {
+	padding: 10px;
+}
+
+#chat .card .card-action {
+	position: static;
+	padding: 0 10px;
+	border: none;
+}
+
+#chat .collection .collection-item {
+	padding: 5px 10px;
+	margin: 2px;
+	clear: both;
+	text-align: justify;
+	max-width: 200px;
+	float: left;
+	border-bottom: none;
+	background-color: #cfd8dc;
+	border-radius: 10px;
+	word-wrap: break-word;
+}
+
+#chat a.btn {
+	margin: 5px 10px;
+	color: #cfd8dc;
+	background-color: #546e7a;
+}
+
+#chat .card a.btn {
+	margin: 5px 10px;
+	color: #546e7a;
+	background-color: #cfd8dc;
+}
+
+#chat .dropdown-content {
+	background-color: #cfd8dc;
+	left: 10px !important;
+}
+
+#chat .dropdown-content li a {
+	color: #546e7a;
+}
+
+#chat #chatLogin:focus+ label,
+#chat #chatPasswd:focus+ label {
+	color: #cfd8dc;
+}
+
+#chat #chatLogin:focus,
+#chat #chatPasswd:focus {
+	border-bottom: 1px solid #cfd8dc;
+	box-shadow: 0 1px 0 0 #000;
+}
+
+#chat .btn:hover {
+	background-color: #b0bec5 !important;
+}
+
+#chat .btn-dark:hover {
+	background-color: #78909c !important;
+}
+
+#chat #chatMsg {
+	margin-top: 0.5vh;
+	background-color: white;
+	border-radius: 3px;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 75%;
+	position: relative;
+	left: -3%;
+}
+
+#chat #chatAttachment {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+#chat label i {
+	cursor: pointer;
+}
+
+#chat #chatMsg:focus {
+	box-shadow: none;
+	border: none;
+}
+
+@media only screen and (orientation:portrait) {
+	#chat #chatMessages {
+		height: 700px;
+	}
+	#chat #chatSend {
+		display: block !important;
+	}
+	#chat #chatMsg {
+		margin: 0 0 5px 0 !important;
+	}
+}
+
+@media only screen and (orientation:landscape) {
+	#chat #chatMessages {
+		height: 56vh !important;
+		max-height: 56vh !important;
+	}
+	#chat .card .card-action {
+		position: relative !important;
+		top: 5vh;
+	}
+}
+
+#chat #chatMessages::-webkit-scrollbar {
+	width: 0.5em;
+}
+
+#chat #chatMessages::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#chat #chatMessages::-webkit-scrollbar-thumb {
+	background-color: darkgrey;
+	outline: 1px solid slategrey;
+}
+
+#chat a {
+	height: 5vh;
+	line-height: 5vh;
+}

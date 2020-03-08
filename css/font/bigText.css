@@ -1,0 +1,12 @@
+#chat #chatMessages {
+  font-size: 15px;
+}
+
+#chat #chatMessages p {
+  font-size: 12px;
+}
+
+#chat .collection .collection-item {
+  border-radius: 10px;
+  max-width: 210px;
+}
